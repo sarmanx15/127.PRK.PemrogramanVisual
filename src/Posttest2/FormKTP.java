@@ -429,7 +429,8 @@ public class FormKTP extends javax.swing.JFrame {
         else{
             TFPesan.setText("Selamat, Data Anda Berhasil Disimpan");
             TAHasil.setText(
-                    "Nama\t\t: "+Nama
+                    "Berikut ini adalah data yang berhasil disimpan pada Sistem Pendaftaran E-KTP"
+                            + "\nNama\t\t: "+Nama
                             + "\nTempat,Tgl Lahir\t: "+Tempat+", "+sdf.format(TglLahir)
                             + "\nJenis Kelamin\t\t: "+JK
                             + "\nGolongan Darah\t: "+GolDar
@@ -442,6 +443,7 @@ public class FormKTP extends javax.swing.JFrame {
                             + "\nStatus Kawin\t\t: "+Skawin
                             + "\nPekerjaan\t\t: "+Pekerjaan
                             + "\nKewarganegaraan\t: "+KWGR
+                            + "\nBerlaku Hingga\t: Seumur Hidup"
             );
         }
     }//GEN-LAST:event_BSubmitActionPerformed
