@@ -296,6 +296,11 @@ public class AplikasiPelanggan extends javax.swing.JFrame {
                 TFNama1CaretUpdate(evt);
             }
         });
+        TFNama1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TFNama1ActionPerformed(evt);
+            }
+        });
         TFNama1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 TFNama1KeyPressed(evt);
@@ -805,7 +810,7 @@ public class AplikasiPelanggan extends javax.swing.JFrame {
 
     private void TFNamaKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TFNamaKeyPressed
         // TODO add your handling code here:
-        jLNama.setForeground(Color.red);
+     
     }//GEN-LAST:event_TFNamaKeyPressed
 
     private void TFNamaKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TFNamaKeyReleased
@@ -872,6 +877,10 @@ public class AplikasiPelanggan extends javax.swing.JFrame {
         // TODO add your handling code here:
         BTNProses.setBackground(Color.lightGray);
     }//GEN-LAST:event_BTNProsesMouseReleased
+
+    private void TFNama1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TFNama1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TFNama1ActionPerformed
 
     /**
      * @param args the command line arguments
